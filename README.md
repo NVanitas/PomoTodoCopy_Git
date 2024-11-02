@@ -4,7 +4,7 @@
 Este é um projeto simples de um Kanban Board criado em ASP.NET Core MVC, que permite gerenciar tarefas em três estados: **Do**, **In Progress**, e **Done**. Cada coluna exibe as tarefas com um layout visual baseado no status.
 
 ## Funcionalidades
-
+- **Temporizador Pomodoro**: Vizualizar o tempo,ciclo e o descanço de uma atividade.
 - **Adicionar Tarefas**: Criação de novas tarefas com título e descrição.
 - **Editar Tarefas**: Edição de informações de tarefas existentes.
 - **Detalhes das Tarefas**: Visualização detalhada de cada tarefa.
