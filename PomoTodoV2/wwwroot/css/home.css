@@ -1,0 +1,112 @@
+﻿body {
+    background-color: #f4f7fa; /* Cor de fundo leve e suave */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte padrão */
+    margin: 0; /* Remove margens padrão */
+}
+
+h1 {
+    font-size: 2.5rem; /* Tamanho maior para o título */
+    color: #343a40; /* Cor escura para o título */
+}
+
+h2, h5 {
+    margin: 20px 0; /* Espaçamento para subtítulos */
+    color: #495057; /* Cor dos subtítulos */
+}
+
+.header {
+    background-color: #343a40; /* Fundo escuro para cabeçalho */
+    color: white; /* Texto branco */
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra leve */
+}
+
+.card {
+    border: none; /* Remover bordas */
+    border-radius: 8px; /* Bordas arredondadas */
+    background-color: #ffffff; /* Fundo branco para cartões */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    transition: transform 0.3s; /* Transição suave para hover */
+}
+
+    .card:hover {
+        transform: translateY(-5px); /* Efeito de elevação ao passar o mouse */
+    }
+
+.todo-item {
+    padding: 15px; /* Espaçamento interno nos itens */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Transição suave para fundo */
+}
+
+    .todo-item:hover {
+        background-color: #e9ecef; /* Cor de fundo ao passar o mouse */
+    }
+
+.bg-danger {
+    background-color: #dc3545 !important; /* Vermelho para a coluna "To Do" */
+}
+
+.bg-warning {
+    background-color: #ffc107 !important; /* Amarelo para a coluna "In Progress" */
+}
+
+.bg-success {
+    background-color: #28a745 !important; /* Verde para a coluna "Done" */
+}
+
+.btn {
+    margin: 5px; /* Margem para os botões */
+    padding: 10px 20px; /* Espaçamento interno dos botões */
+    border-radius: 5px; /* Bordas arredondadas nos botões */
+    transition: background-color 0.3s, transform 0.2s; /* Transição suave */
+}
+
+    .btn:hover {
+        transform: translateY(-3px); /* Efeito de elevação ao passar o mouse */
+    }
+
+.btn-primary {
+    background-color: #007bff; /* Azul para botão primário */
+}
+
+    .btn-primary:hover {
+        background-color: #0056b3; /* Azul escuro ao passar o mouse */
+    }
+
+#pomodoro-timer {
+    margin: 20px 0; /* Margem para o temporizador */
+    font-size: 3rem; /* Tamanho do texto do temporizador */
+    color: #28a745; /* Cor verde para o temporizador */
+}
+
+input[type="number"] {
+    width: 80px; /* Largura fixa para inputs numéricos */
+    padding: 5px; /* Espaçamento interno */
+    border: 1px solid #ced4da; /* Borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+    input[type="number"]:focus {
+        border-color: #28a745; /* Borda verde ao focar */
+        box-shadow: 0 0 5px rgba(40, 167, 69, 0.5); /* Sombra ao focar */
+    }
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem; /* Tamanho reduzido para telas menores */
+    }
+
+    #pomodoro-timer {
+        font-size: 2rem; /* Tamanho reduzido do temporizador */
+    }
+
+    .todo-item {
+        padding: 12px; /* Menos espaçamento em telas menores */
+    }
+
+    .btn {
+        width: 100%; /* Botões ocupam toda a largura em telas pequenas */
+        margin: 5px 0; /* Margem vertical em vez de horizontal */
+    }
+}

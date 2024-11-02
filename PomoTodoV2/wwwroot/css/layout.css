@@ -1,0 +1,40 @@
+﻿/* layout.css */
+.navbar {
+    background-color: #f3f4f6; /* Cor de fundo leve */
+    padding: 1rem 0; /* Aumenta o espaçamento vertical da navbar */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    display: flex; /* Usando flexbox */
+    justify-content: center; /* Centraliza a navbar */
+}
+
+.navbar-nav {
+    display: flex; /* Alinha os itens da navbar na horizontal */
+    justify-content: center; /* Centraliza os itens da navbar */
+    margin: 0; /* Remove margens da lista de navegação */
+}
+
+.navbar-brand {
+    font-size: 1.8rem; /* Tamanho da fonte do título */
+    margin-right: 20px; /* Espaço entre o título e os links */
+}
+
+.navbar-nav .nav-item {
+    margin: 0 10px; /* Espaço horizontal entre os itens da navbar */
+}
+
+.navbar-nav .nav-link {
+    position: relative;
+    text-decoration: none; /* Remove underline padrão */
+    color: #343a40; /* Cor padrão com o resto do site */
+    transition: color 0.3s ease, transform 0.3s ease; /* Transição suave */
+    font-weight: 500; /* Deixa a fonte mais destacada */
+    padding: 10px 15px; /* Define padding para os links */
+}
+
+    .navbar-nav .nav-link:hover {
+        color: #28a745; /* Muda a cor do texto no hover */
+        transform: translateY(-2px); /* Levanta ligeiramente o item no hover */
+    }
+
+/* Outros estilos podem ser adicionados conforme necessário */
