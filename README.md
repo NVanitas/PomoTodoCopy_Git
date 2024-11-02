@@ -1,7 +1,7 @@
 # PomoTodo
 # Kanban Board
 
-Este é um projeto simples de um Kanban Board criado em ASP.NET Core MVC, que permite gerenciar tarefas em três estados: **Do**, **In Progress**, e **Done**. Cada coluna exibe as tarefas com um layout visual baseado no status.
+Este é um projeto simples de um Kanban Board criado em ASP.NET Core MVC, que permite gerenciar tarefas em três estados: **Do**, **In Progress**, e **Done**. Cada coluna exibe as tarefas com um layout visual baseado no status. Além de uma integração com o método Pomodoro apartir de um temporizador
 
 ## Funcionalidades
 - **Temporizador Pomodoro**: Vizualizar o tempo,ciclo e o descanço de uma atividade.
