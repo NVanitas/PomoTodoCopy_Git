@@ -24,5 +24,5 @@ Este é um projeto simples de um Kanban Board criado em ASP.NET Core MVC, que pe
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/NVanitas/PomoTodoCopy_Git.git
+   git clone https://github.com/NVanitas/PomoTodo_Git.git
 
